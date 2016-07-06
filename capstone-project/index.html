@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/ca9104b671.js"></script>
+    <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>Emily Thuro</title>
+  </head>
+  <body>
+    <header>
+      <img src="media/Emily Thuro-6 PS.jpg" alt="Emily Thuro">
+      <div class="container">
+        <h1 class="name"> Emily Thuro <h1>
+      </div>
+      <h3 class="description">
+        Graphic Design, Photography, Web Design, Advertising
+      </h3>
+    </header>
+    <article>
+      <div class=header-quote-container>
+        <h3 class="header-quote">
+          Crafting visually brilliant and memorable experiences for web and interfaces.
+        </h3>
+      </div>
+      <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </article>
+    <section>
+      <p class ="section-quote">“There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for.” - Milton Glaser</p>
+    </section>
+    <div class="menu-dropdown">
+      <button class="about">
+        <h3 class="about-link">About <i class="fa fa-plus-square-o" aria-hidden="true"></i></h3>
+      </button>
+      <p class="about-para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <button class="portfolio">
+        <h3 class="portfolio-link">Portfolio <i class="fa fa-plus-square-o" aria-hidden="true"></i></h3>
+      </button>
+      <p class="portfolio-para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <button class="contact">
+        <h3 class="contact-link">Contact <i class="fa fa-plus-square-o" aria-hidden="true"></i></h3>
+      </button>
+      <p class="contact-para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+
+    <script>
+      $(function() {
+        $('.about-para').slideUp(10)
+        $('.portfolio-para').slideUp(10)
+        $('.contact-para').slideUp(10)
+        $('.about').click(function() {
+
+            $('.about-para').slideToggle();
+            });
+
+        $('.portfolio').click(function() {
+
+            $('.portfolio-para').slideToggle();
+            });
+
+      $('.contact').click(function() {
+          $('.contact-para').slideToggle();
+          });
+      });
+    </script>
+
+  </body>
+</html>

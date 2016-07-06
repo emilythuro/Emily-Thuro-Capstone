@@ -1,0 +1,219 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* END OF RESET, START OF STYLES */
+
+/* --- BASIC SET UP --- */
+
+body {
+	width: 100vw;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.2;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-image: url(media/nice_snow.png);
+	color: white;
+	border: 10px solid white;
+}
+
+/* --- HEADER --- */
+
+.name {
+	display: block;
+	font-size: 3em;
+	text-align: left;
+	color: white;
+	background-color: rgba(0,0,0,0.6);
+	width: 100%;
+	padding-left: 3%;
+}
+
+.container {
+	position: absolute;
+	margin-top: -21%;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+.description{
+	position: relative;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	width: 100vw;
+	font-size: 1.3em;
+	font-style: italic;
+}
+/* HEADSHOT */
+
+img {
+	display: block;
+	width: 80vw;
+	border-radius: 100%;
+	z-index: 10;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+	border: 1px solid black;
+	box-shadow: 0px 0px 55px turquoise;
+
+}
+
+/* --- ARTICLE ---*/
+
+.header-quote-container {
+	display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+	margin-top: 5%;
+	margin-bottom: 5%;
+  padding-top: 3%;
+	padding-bottom: 3%;
+	font-size: 2em;
+	font-style: italic;
+	font-family: 'Old Standard TT', serif;
+	background: rgba(255, 255, 255, 0.7);
+	border-top: 1px solid black;
+  border-bottom: 1px solid black;
+	text-shadow: 2px 2px 8px black;
+}
+
+.header-quote {
+	width: 70%;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.paragraph {
+	width: 85%;
+	margin-left: 10%;
+	text-shadow: 1px 1px 1px black;
+}
+
+/* --- SECTION --- */
+
+section {
+	background-image: url(media/footer_lodyas.png);
+	color: white;
+}
+
+.section-quote {
+	position: relative;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-style: italic;
+	font-family: 'Old Standard TT', serif;
+	font-size: 1.4em;
+	text-shadow: 2px 2px 8px turquoise;
+}
+
+/* --- DROPDOWN MENU LINKS --- */
+
+.menu-dropdown {
+	margin-top: 5%;
+	background-image: url(media/footer_lodyas.png);
+}
+
+button {
+	display: block;
+	text-align: left;
+	width: 100vw;
+	font-size: 1.4em;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 3%;
+	background-image: url(media/footer_lodyas.png);
+	border: 1px solid turquoise;
+}
+
+.about-link, .portfolio-link, .contact-link {
+	color: white;
+	text-decoration: none;
+}
+
+/* DROPDOWN MENU CONTENT */
+
+.about-para, .portfolio-para, .contact-para {
+	color: white;
+	padding: 2%;
+
+}
+
+/* --- MEDIA QUERIES --- */
+
+@media screen and (min-width: 600px) {
+	h3 {
+		font-size: 1.6em;
+	}
+	.name {
+		font-size: 4em;
+	}
+	.description {
+		font-size: 2em;
+		margin-top: -6%;
+	}
+	.header-quote {
+		font-size: 1.05em;
+	}
+	.paragraph {
+		font-size: 1.4em;
+	}
+	.section-quote {
+		font-size: 2em;
+	}
+	.about-para, .portfolio-para, .contact-para {
+		font-size: 1.4em;
+	}
+}
