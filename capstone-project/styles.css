@@ -166,7 +166,7 @@ section {
 	background-image: url(media/footer_lodyas.png);
 }
 
-button {
+.about, .portfolio, .contact {
 	display: block;
 	text-align: left;
 	width: 100vw;
@@ -254,7 +254,7 @@ button {
 		padding-left: 3%;
 		text-shadow: 1px 1px 1px black;
 	}
-	section{ /*For black background quote */
+	section{ /*For bottom of page quote */
 		width: 92%;
 		margin-left: auto;
 		margin-right: auto;
@@ -263,6 +263,7 @@ button {
 	.section-quote {
 		font-size: 2.5em;
 		margin-top: 0%;
+		margin-bottom: 2%;
 	}
 	.menu-dropdown {/*For mobile and tablet dropdowns */
 		display: none;
