@@ -50,7 +50,7 @@ table {
 /* --- BASIC SET UP --- */
 
 body {
-	width: 100%;
+	width: 100vw;
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.2;
@@ -110,6 +110,8 @@ img {
 nav {
 	display: column;
 	flex-direction: row-reverse;
+	text-decoration: none;
+	display: none;
 }
 
 ul {
@@ -124,8 +126,13 @@ li {
 	margin-right: 1%;
 }
 
-a:visited {
+a {
+	text-decoration: none;
 	color: black;
+}
+
+a:hover {
+	text-decoration: line-through;
 }
 /* --- ARTICLE ---*/
 
@@ -191,7 +198,7 @@ section {
 	display: block;
 	text-align: left;
 	width: 100vw;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	padding-left: 3%;
@@ -202,6 +209,7 @@ section {
 .about-link, .portfolio-link, .contact-link {
 	color: white;
 	text-decoration: none;
+	font-size: 1.4em;
 }
 
 /* DROPDOWN MENU CONTENT */
@@ -215,18 +223,18 @@ section {
 /* --- MEDIA QUERIES --- */
 
 @media screen and (min-width: 600px) {
-	body {
-		width: 98%;
-	}
 	h3 {
 		font-size: 1.6em;
+	}
+	nav {
+		display: none;
 	}
 	.container {
 		margin-right: 1.5%;
 		width: 50%;
 	}
 	.name {
-		font-size: 4em;
+		font-size: 3em;
 	}
 	.description {
 		font-size: 1.5em;
@@ -239,10 +247,6 @@ section {
 }
 
 @media screen and (min-width: 1024px){
-	body{
-		width: 98%;
-		border: 15px solid white;
-	}
 	img {
 		width: 40%;
 		margin-left: 5%;
@@ -261,7 +265,7 @@ section {
 		margin-top: 1%;
 	}
 	article {/* Stop overlap over img on larger screens */
-		margin-top: 5%;
+		margin-top: 8%;
 	}
 	.header-quote-container {
 		display: inline-flex;
@@ -291,11 +295,14 @@ section {
 		margin-top: 0%;
 	}
 	.section-quote {
-		font-size: 2.5em;
+		font-size: 2em;
 		margin-top: 0%;
 		margin-bottom: 2%;
 	}
 	.menu-dropdown {/*For mobile and tablet dropdowns */
 		display: none;
+	}
+	nav {
+		display: inline;
 	}
 }
