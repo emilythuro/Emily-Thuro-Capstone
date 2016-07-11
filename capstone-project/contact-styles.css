@@ -1,0 +1,64 @@
+/* --- BODY --- */
+body {
+	width: 100vw;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.2;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-image: url(media/crossword.png);
+	color: white;
+	margin: 0;
+}
+
+/* --- NAV --- */
+nav {
+	position: fixed;
+	width: 99%;
+	margin-top: 3%;
+	background-image: url(media/footer_lodyas.png);
+}
+
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+	margin-left: -5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+li {
+	display: inline;
+	color: black;
+  padding-right: 2%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+/* NAME */
+h1 {
+	position: fixed;
+	z-index: 100;
+	margin-top: 4.5%;
+	margin-left: 13%;
+}
+
+/* IMAGE */
+img {
+	display: block;
+	position: fixed;
+	width: 10vw;
+	border-radius: 100%;
+	z-index: 10;
+	margin-right: auto;
+	margin-left: 2%;
+	margin-top: 1%;
+	border: 1px solid black;
