@@ -2,20 +2,76 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css" media="screen">
+    <link rel="stylesheet" href="contact-styles.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic' rel='stylesheet' type='text/css'>
     <script src="https://use.fontawesome.com/ca9104b671.js"></script>
     <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width" />
-    <title>Contact | Emily Thuro</title>
+    <title>Emily Thuro | Contact</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="cpa-nav.html" target="_blank">CONTACT</a></li>
-        <li><a href"cpa-nav.html" target="_blank">PORTFOLIO</a></li>
-        <li><a href="cpa-nav.html" target="_blank">ABOUT</a></li>
-      </ul>
-    </nav>
-  </body>
+    <header>
+      <img src="media/Emily-Thuro-6-PS.jpg" alt="Emily Thuro">
+      <h1 class="nav-title">EMILY THURO | CONTACT</h1>
+        <nav>
+          <ul>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="portfolio.html" target="_blank">PORTFOLIO</a></li>
+            <li><a href="about.html" target="_blank">ABOUT</a></li>
+          </ul>
+        </nav>
+    </header>
+  <div class="form-title">
+    <h1>Like what you see? Let's get in touch.</h1>
+  </div>
+  <form action="#" method="post" id="contact-form">
+    <div class="name-input-div">
+      <label>
+        Your Name
+      </label>
+      <input class="input-box" placeholder="Jane Doe">
+      </input>
+    </div>
+    <div class="email-input-div">
+      <label>
+        E-mail
+      </label>
+      <input class="input-box" placeholder="123-456-7890">
+    </input>
+    </div>
+    <div class="number-input-div">
+      <label>
+        Phone Number
+      </label>
+      <input class="input-box" placeholder="janedoe@johndoe.com">
+      </input>
+    </div>
+    <div>
+      <label>
+        Which service are you interested in?
+      </label>
+    </div>
+    <div>
+      <select>
+        <option>Photography</option>
+        <option>Graphic Design</option>
+        <option>Web Development</option>
+        <option>Advertising</option>
+      </select>
+    </div>
+    <div>
+      <label>
+        How can I help you?
+      </label>
+    </div>
+    <div>
+      <textarea placeholder="Your message here!" rows="5">
+      </textarea>
+    </div>
+    <div>
+      <button class="submit button">Submit!</button>
+    </div>
+  </form>
+ </body>
+</html>
