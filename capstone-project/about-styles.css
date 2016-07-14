@@ -1,0 +1,139 @@
+/* --- BODY --- */
+body {
+	width: 100vw;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.2;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-image: url(media/crossword.png);
+	color: white;
+	margin: 0;
+}
+
+/* --- NAV --- */
+nav {
+  z-index: 90;
+	position: fixed;
+	width: 100%;
+	margin-top: 3%;
+	background-image: url(media/footer_lodyas.png);
+}
+
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+	margin-left: -5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+li {
+	display: inline;
+	color: black;
+  padding-right: 2%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+/* NAME */
+.nav-title {
+	position: fixed;
+	z-index: 100;
+	margin-top: 4.5%;
+	margin-left: 13%;
+}
+/* HEADER */
+header {
+  z-index: 100;
+}
+
+/* IMAGE */
+.nav-image {
+	display: block;
+	position: fixed;
+	width: 10vw;
+	border-radius: 100%;
+	z-index: 10;
+	margin-right: auto;
+	margin-left: 2%;
+	margin-top: 1%;
+	border: 1px solid black;
+  z-index: 100;
+}
+
+/* TEXT ABOVE ABOUT */
+.description-title {
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+  padding: 1%;
+  margin-top: 13%;
+  z-index: 10;
+}
+
+/* --- ARTICLE ---*/
+.article-wrapper {
+  display: block;
+  padding-top: 12%;
+  width: 100%;
+  z-index: 10;
+}
+article {
+  display: block;
+  margin-top: 11%;
+  width: 56%;
+  color: black;
+  margin-left: 5%;
+}
+
+/* IMAGE */
+.side-image-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  margin-top: -26%;
+}
+.side-image-1 {
+  width: 30vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: 5%;
+  margin-top: -22%;
+}
+.side-image-2 {
+  width: 30vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: 5%;
+  margin-top: -11%;
+}
+
+/* --- SECTION --- */
+
+section {
+	background-image: url(media/footer_lodyas.png);
+	color: white;
+}
+
+.section-quote {
+	position: relative;
+	width: 75%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+  margin-top: -12%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-style: italic;
+	font-family: 'Old Standard TT', serif;
+	font-size: 1.4em;
+	text-shadow: 2px 2px 8px turquoise;
+}
