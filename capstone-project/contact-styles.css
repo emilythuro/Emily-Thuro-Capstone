@@ -59,11 +59,15 @@ body {
 	margin: 0;
 }
 
+h1 {
+	font-size: 1.5em;
+}
+
 /* --- NAV --- */
 nav {
 	position: fixed;
 	width: 100%;
-	margin-top: 3%;
+	margin-top: 4%;
 	background-image: url(media/footer_lodyas.png);
 }
 
@@ -95,7 +99,7 @@ a:hover {
 .nav-title {
 	position: fixed;
 	z-index: 100;
-	margin-top: 4.5%;
+	margin-top: 4.6%;
 	margin-left: 13%;
 }
 
@@ -124,10 +128,15 @@ img {
 /* --- FORM --- */
 #contact-form {
 	position: absolute;
-	margin-top: 22%;
+	margin-top: 18%;
 	margin-left: 30%;
 	width: 47vw;
 	color: black;
+}
+
+.title {
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 .input-box {
