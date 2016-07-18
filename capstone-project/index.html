@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-      <img src="media/Emily-Thuro-6-PS.jpg" alt="Emily Thuro">
+      <img class="head-image" src="media/Emily-Thuro-6-PS.jpg" alt="Emily Thuro">
       <div class="container">
         <h1 class="name"> Emily Thuro </h1>
       </div>
@@ -49,16 +49,83 @@
       <div class="portfolio">
         <h3 class="portfolio-link">Portfolio <i class="fa fa-plus-square-o" aria-hidden="true"></i></h3>
       </div>
-      <p class="portfolio-para">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      <div class="portfolio-para">
+          <h1 class="title">PHOTOGRAPHY</h1>
+            <div class="photography-container">
+              <img class="hs" src="media/headshots/headshot-1.jpg" alt="Headshot #1">
+              <img class="hs" src="media/headshots/headshot-2.jpg" alt="Headshot #2">
+              <img class="hs" src="media/headshots/headshot-3.jpg" alt="Headshot #3">
+            </div>
+          <h1 class="title">GRAPHIC DESIGN</h1>
+            <div class="gd-container">
+              <img class="gd-1" src="media/gd/logo-1.png" alt="Logo Design #1 - Emily Thuro">
+              <img class="gd-2" src="media/gd/logo-2.png" alt="Logo Design #2 - Cassco Machines">
+              <img class="gd-3" src="media/gd/logo-3.png" alt="Logo Design #3 - Glass Cactus">
+              <img class="gd-4" src="media/gd/logo-4.png" alt="Logo Design #4 - Noizee Toronto">
+            </div>
+          <h1 class="title">SOCIAL MEDIA MANGEMENT</h1>
+            <div class="sm-container">
+              <img class="sm" src="media/sm/sm-1.png" alt="Social Media Management - Pressed Canada">
+            </div>
+          <h1 class="title">ADVERTISING</h1>
+            <div class="ad-container">
+              <img class="ad" src="media/pressed/pressed-1.png" alt="Advertising - Pressed Canada">
+              <img class="ad" src="media/pressed/pressed-2.png" alt="Advertising - Pressed Canada">
+            </div>
+          <h1 class="title">WEB DEVELOPMENT</h1>
+            <div class="wd-container">
+            <h2 class="wd-content"> This Website! </h2>
+            </div>
+        </div>
       <div class="contact">
         <h3 class="contact-link">Contact <i class="fa fa-plus-square-o" aria-hidden="true"></i></h3>
       </div>
-      <p class="contact-para">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </div>
+        <form class="contact-para" action="#" method="post" id="contact-form">
+          <div class="name-input-div">
+            <label>
+              Your Name
+            </label>
+            <input class="input-box" placeholder="Jane Doe">
+          </div>
+          <div class="email-input-div">
+            <label>
+              E-mail
+            </label>
+            <input class="input-box" placeholder="123-456-7890">
+          </div>
+          <div class="number-input-div">
+            <label>
+              Phone Number
+            </label>
+            <input class="input-box" placeholder="janedoe@johndoe.com">
+          </div>
+          <div>
+            <label>
+              Which service are you interested in?
+            </label>
+          </div>
+          <div>
+            <select>
+              <option>Photography</option>
+              <option>Graphic Design</option>
+              <option>Web Development</option>
+              <option>Advertising</option>
+            </select>
+          </div>
+          <div>
+            <label>
+              How can I help you?
+            </label>
+          </div>
+          <div>
+            <textarea placeholder="Your message here!" rows="5">
+            </textarea>
+          </div>
+          <div>
+            <button value="submit" class="submit button">Submit!</button>
+          </div>
+        </form>
+
 
     <script>
       $(function() {

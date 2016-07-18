@@ -95,7 +95,7 @@ h3 {
 }
 /* HEADSHOT */
 
-img {
+.head-image {
 	display: block;
 	width: 80vw;
 	border-radius: 100%;
@@ -114,11 +114,13 @@ nav {
 	flex-direction: row-reverse;
 	text-decoration: none;
 	display: none;
+	z-index: 100;
 }
 
 ul {
 	margin-right: 14.5%;
 	margin-top: 1%;
+	z-index: 100;
 }
 
 li {
@@ -126,6 +128,7 @@ li {
 	float: right;
 	color: black;
 	margin-right: 1%;
+	z-index: 100;
 }
 
 a {
@@ -220,9 +223,133 @@ section {
 .about-para, .portfolio-para, .contact-para {
 	color: white;
 	padding: 2%;
-
 }
 
+
+/* ----- PORTFOLIO ------ */
+
+.title {
+	width: 86%;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+ /* PHOTOGRAPHY */
+.photography-container {
+  width: 90%;
+  margin-left: auto;
+  z-index: 1;
+}
+
+.hs {
+  display: inline;
+  width: 25%;
+  margin-left: 3%;
+  margin-top: 2%;
+	margin-bottom: 2%;
+  z-index: 1;
+}
+
+/* GRAPHIC DESIGN */
+.gd-container {
+  width: 90%;
+  margin-left: auto;
+	margin-right: auto;
+  z-index: 1;
+}
+
+.gd-1, .gd-2, .gd-3, .gd-4 {
+  display: inline;
+  width: 30%;
+  z-index: 1;
+}
+
+.gd-3 {
+	margin-left: 3%;
+}
+
+.gd-4 {
+	margin-left: 33%;
+	margin-top: -15%;
+}
+
+/* SOCIAL MEDIA */
+
+.sm-container {
+	width: 90%;
+  margin-left: auto;
+	margin-right: auto;
+  z-index: 1;
+}
+
+.sm {
+	display: inline;
+  width: 35%;
+  margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 32%;
+  z-index: 1;
+}
+/* ADVERTISING */
+.ad-container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+}
+
+.ad {
+	display: inline;
+  width: 35%;
+  margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 2%;
+	margin-left: 7.5%;
+  z-index: 1;
+}
+/* WEB DEVELOPMENT */
+
+.wd-content {
+  font-family: Old Standard TT;
+  font-style: italic;
+  color: black;
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	font-size: 1.2em;
+  z-index: 1;
+}
+
+/* ------ CONTACT ------- */
+#contact-form {
+	position: absolute;
+	padding-top: 3%;
+	padding-left: 3%;
+	width: 100vw;
+	color: white;
+	background-image: url(media/footer_lodyas.png);
+}
+
+.title {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.input-box {
+	width: 90%;
+}
+textarea {
+	width: 90%;
+	height: 25vh;
+}
+
+button, select {
+	color: white;
+}
 /* --- MEDIA QUERIES --- */
 
 @media screen and (min-width: 600px) {
