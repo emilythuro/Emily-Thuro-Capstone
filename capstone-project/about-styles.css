@@ -170,7 +170,7 @@ header {
 
 /* --- SECTION --- */
 
-section {
+.footer-quote-container {
 	background-image: url(media/footer_lodyas.png);
 	color: white;
 }
