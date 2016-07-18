@@ -1,0 +1,220 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* END OF RESET, START OF STYLES */
+/* --- BODY --- */
+body {
+	width: 100vw;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.2;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-image: url(media/crossword.png);
+	color: white;
+	margin: 0;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+/* --- NAV --- */
+nav {
+	position: fixed;
+	width: 100%;
+	margin-top: 4%;
+	background-image: url(media/footer_lodyas.png);
+}
+
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+	margin-left: -5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+li {
+	display: inline;
+	color: black;
+  padding-right: 2%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+/* NAME */
+.nav-title {
+	position: fixed;
+	z-index: 100;
+	margin-top: 4.6%;
+	margin-left: 13%;
+}
+
+/* IMAGE */
+.main-image {
+	display: block;
+	position: fixed;
+	width: 10vw;
+	border-radius: 100%;
+	z-index: 10;
+	margin-right: auto;
+	margin-left: 2%;
+	margin-top: 1%;
+	border: 1px solid black;
+}
+
+/* --- HEADSHOTS SECTION --- */
+.content-container {
+  position: absolute;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+.title {
+	width: 86%;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+ /* PHOTOGRAPHY */
+.photography-container {
+  width: 90%;
+  margin-left: auto;
+  z-index: 1;
+}
+
+.hs {
+  display: inline;
+  width: 25%;
+  margin-left: 3%;
+  margin-top: 2%;
+	margin-bottom: 2%;
+  z-index: 1;
+}
+
+/* GRAPHIC DESIGN */
+.gd-container {
+  width: 90%;
+  margin-left: auto;
+	margin-right: auto;
+  z-index: 1;
+}
+
+.gd-1, .gd-2, .gd-3, .gd-4 {
+  display: inline;
+  width: 30%;
+  z-index: 1;
+}
+
+.gd-3 {
+	margin-left: 3%;
+}
+
+.gd-4 {
+	margin-left: 33%;
+	margin-top: -15%;
+}
+
+/* SOCIAL MEDIA */
+
+.sm-container {
+	width: 90%;
+  margin-left: auto;
+	margin-right: auto;
+  z-index: 1;
+}
+
+.sm {
+	display: inline;
+  width: 35%;
+  margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 32%;
+  z-index: 1;
+}
+/* ADVERTISING */
+.ad-container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+}
+
+.ad {
+	display: inline;
+  width: 35%;
+  margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 2%;
+	margin-left: 7.5%;
+  z-index: 1;
+}
+/* WEB DEVELOPMENT */
+
+.wd-content {
+  font-family: Old Standard TT;
+  font-style: italic;
+  color: black;
+  margin-left: 43vw;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	font-size: 2em;
+  z-index: 1;
+}
