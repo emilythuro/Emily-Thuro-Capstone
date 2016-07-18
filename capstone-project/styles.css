@@ -173,7 +173,7 @@ a:hover {
 
 /* --- SECTION --- */
 
-section {
+.quote {
 	background-image: url(media/footer_lodyas.png);
 	color: white;
 }
