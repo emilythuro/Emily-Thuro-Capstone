@@ -408,7 +408,7 @@ button, select {
 		font-size: 1.9em;
 		margin-top: 1%;
 	}
-	article {/* Stop overlap over img on larger screens */
+	.article {/* Stop overlap over img on larger screens */
 		margin-top: 8%;
 	}
 	.header-quote-container {
@@ -432,7 +432,7 @@ button, select {
 		padding-left: 3%;
 		text-shadow: 1px 1px 1px black;
 	}
-	section{ /*For bottom of page quote */
+	.quote { /*For bottom of page quote */
 		width: 92%;
 		margin-left: auto;
 		margin-right: auto;
