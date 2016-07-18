@@ -110,7 +110,7 @@ img {
 /* --- NAVIGATION --- */
 
 nav {
-	display: column;
+	display: flex;
 	flex-direction: row-reverse;
 	text-decoration: none;
 	display: none;
