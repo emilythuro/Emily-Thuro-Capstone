@@ -153,6 +153,7 @@ a:hover {
 	border-top: 1px solid black;
   border-bottom: 1px solid black;
 	text-shadow: 2px 2px 8px black;
+	text-align: center;
 }
 
 .header-quote {
