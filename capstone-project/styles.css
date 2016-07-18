@@ -446,6 +446,11 @@ button, select {
 	.menu-dropdown {/*For mobile and tablet dropdowns */
 		display: none;
 	}
+
+	.menu {
+		display: none;
+	}
+	
 	nav {
 		display: inline;
 	}
